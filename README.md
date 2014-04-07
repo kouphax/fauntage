@@ -10,6 +10,8 @@ If you've got this far and want to use it and you've asked yourself why and gott
     
 You need [phantomjs](http://phantomjs.org/) installed.  Images go in the, wait for it, `images` folder.  Mind blown.
 
+If you only want a subset of font-awesome icons as images then you can go ahead and replace the contents of `index.html` with whatever you want.  As long as the `capture.js` script can find `<i>` elements with `.fa` classes it can work its magic.
+
 ### License
 
 The MIT License (MIT)
