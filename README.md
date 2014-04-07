@@ -1,6 +1,6 @@
 ## Fauntage
 
-A PhantomJS based script that scrapes a page of x5 scaled Font Awesome icons into transparent `png` files.  If you need to do this then this will do it.  But ask yourself - Do you need this?  Really?  Why?  I never asked myself that question.  But turns out I did anyway.  For a thing.  Yeah thas right Ihad a thing that needed this.  What of it?  Use it or don't.  No biggie.
+A [PhantomJS](http://phantomjs.org/) based script that scrapes a page of x5 scaled Font Awesome icons into transparent `png` files.  It also makes them random colours (based on the subset of the [Flat UI](http://designmodo.github.io/Flat-UI/) palette).  If you need to do this then this will do it.  But ask yourself - Do you need this?  Really?  Why?  I never asked myself that question.  But turns out I did anyway.  For a thing.  Yeah thas right Ihad a thing that needed this.  What of it?  Use it or don't.  No biggie.
 
 ### Usage
 
@@ -8,7 +8,7 @@ If you've got this far and want to use it and you've asked yourself why and gott
 
     phantomjs capture.js
     
-You need phantomjs installed.  Images go in the, wait for it, `images` folder.  Mind blown.
+You need [phantomjs](http://phantomjs.org/) installed.  Images go in the, wait for it, `images` folder.  Mind blown.
 
 ### License
 
