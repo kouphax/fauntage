@@ -484,7 +484,6 @@
     <div class='holder'><i class='fa fa-user-md fa-5x'></i></div>
     <div class='holder'><i class='fa fa-wheelchair fa-5x'></i></div>
 
-    <script type="text/javascript" src="html2canvas.js"></script>
     <script type="text/javascript">
       var colours = ['turquoise',
                      'green-sea',
@@ -515,14 +514,6 @@
       Array.prototype.forEach.call(sources, function(e){
         e.classList.add(rand());
       })
-
-      html2canvas(sources[0], {
-          background: undefined,
-          onrendered: function(canvas){
-            document.body.appendChild(canvas);
-            sources[0].parentNode.removeChild(e);
-          }
-        })
     </script>
   </body>
 </html>
